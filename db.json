@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "שירה מנהלת",
+      "email": "admin@makeup.com",
+      "password": "Admin123!",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "name": "יעל כהן",
+      "email": "yael@example.com",
+      "password": "Yael456!",
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "שפתון אדום קלאסי",
+      "price": 45,
+      "category": "שפתיים",
+      "image": "https://via.placeholder.com/150",
+      "description": "שפתון עמיד בצבע אדום מרהיב",
+      "buyCount": 120
+    },
+    {
+      "id": 2,
+      "name": "מסקרה לנפח",
+      "price": 65,
+      "category": "עיניים",
+      "image": "https://via.placeholder.com/150",
+      "description": "מסקרה שמעניקה נפח דרמטי לריסים",
+      "buyCount": 87
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "content": "צבע מהמם, ממש אהבתי!",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userId": 2,
+      "content": "המסקרה סבירה אבל מתייבשת מהר.",
+      "rating": 3
+    }
+  ]
+}
